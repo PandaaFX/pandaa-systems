@@ -1,4 +1,7 @@
 # PandaaFX-Bot (Dev-Log)
+**05.10.2021**
+- Custom Server Sprachen hinzugefügt. Sprachpakete werden noch gemacht. [BETA]
+
 **04.10.2021**
 - Custom Server Prefix hinzugefügt [BETA]
 
