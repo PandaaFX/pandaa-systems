@@ -1,4 +1,7 @@
 # PandaaFX-Bot (Dev-Log)
+**06.10.2021**
+- Alle Commands etc. mit den Sprachpacks übersetzt.
+
 **05.10.2021**
 - Custom Server Sprachen hinzugefügt. Sprachpakete werden noch gemacht. [BETA]
 
