@@ -1,4 +1,7 @@
 # PandaaFX-Bot (Dev-Log)
+**15.10.2021**
+- Bug fixes
+
 **06.10.2021**
 - Alle Commands etc. mit den Sprachpacks übersetzt.
 
