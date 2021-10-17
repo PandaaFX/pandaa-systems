@@ -1,4 +1,7 @@
 # PandaaFX-Bot (Dev-Log)
+**17.10.2021**
+- Welcome und Leave Nachrichten mit Rollenvergeben [BETA]
+
 **15.10.2021**
 - Bug fixes
 
