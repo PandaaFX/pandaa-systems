@@ -7,4 +7,4 @@ The Bot has a Dashboard but it is currently just for private usage.
 I hope you like it.
 
 Invite for the Bot:
-https://discordapp.com/oauth2/authorize?client_id=746027483429732463&scope=bot&permissions=1945627743
+https://darkbluepandaa.de/invite
