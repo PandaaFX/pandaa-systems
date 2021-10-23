@@ -1,0 +1,71 @@
+<div class="container">
+
+<iframe style="display: none;" name="dummyframe" id="dummyframe"></iframe>
+
+<form action="/sendMessage" method="POST" target="dummyframe">
+    <input type="hidden" name="token" value="{{token}}" >
+    <input type="hidden" name="guild" value="{{guild}}" >
+    <select name="channelid">
+            <option selected disabled hidden>CHANNEL</option>
+        {{#each chans}}
+            <option value="{{this.id}}">{{this.name}}</option>
+        {{/each}}
+    </select>
+    <input type="text" name="text" placeholder="MESSAGE TEXT">
+    <input type="submit" value="SEND">
+</form>
+<br>
+<br>
+<br>
+<form action="/sendEmbed" method="POST" target="dummyframe">
+    <input type="hidden" name="token" value="{{token}}" >
+    <input type="hidden" name="guild" value="{{guild}}" >
+    <select name="channelid">
+            <option selected disabled hidden>CHANNEL AUSWÄHLEN</option>
+        {{#each chans}}
+            <option value="{{this.id}}">{{this.name}}</option>
+        {{/each}}
+    </select>
+    <input type="text" name="title" placeholder="TITLE">
+    <textarea type="text" name="desc" placeholder="DESCRIPTION"></textarea>
+    {{!-- <input type="text" name="desc" placeholder="DESCRIPTION"> --}}
+        <select name="color">
+            <option selected disabled hidden>FARBE AUSWÄHLEN</option>
+            <option>DEFAULT</option>
+            <option>AQUA</option>
+            <option>DARK_AQUA</option>
+            <option>GREEN</option>
+            <option>DARK_GREEN</option>
+            <option>BLUE</option>
+            <option>DARK_BLUE</option>
+            <option>PURPLE</option>
+            <option>DARK_PURPLE</option>
+            <option>LUMINOUS_VIVID_PINK</option>
+            <option>DARK_VIVID_PINK</option>
+            <option>GOLD</option>
+            <option>DARK_GOLD</option>
+            <option>ORANGE</option>
+            <option>DARK_ORANGE</option>
+            <option>RED</option>
+            <option>DARK_RED</option>
+            <option>GREY</option>
+            <option>DARK_GREY</option>
+            <option>DARKER_GREY</option>
+            <option>LIGHT_GREY</option>
+            <option>NAVY</option>
+            <option>DARK_NAVY</option>
+            <option>YELLOW</option>
+            <option>WHITE</option>
+            <option>BLURPLE</option>
+            <option>GREYPLE</option>
+            <option>DARK_BUT_NOT_BLACK</option>
+            <option>NOT_QUITE_BLACK</option>
+            <option>GREEN</option>
+            <option>FUSCHIA</option>
+            <option>BLACK</option>
+    </select>
+    {{!-- <input type="text" name="fieldname" placeholder="FIELDNAME">
+    <input type="text" name="fieldvalue" placeholder="FIELDVALUE"> --}}
+    <input type="submit" value="SEND EMBED">
+</form>
+</div>

@@ -1,0 +1,15 @@
+<div class="container">
+
+<form action="/login" method="POST">
+    {{!-- <input class="loginT" type="button" name="guild"> --}}
+    <input type="hidden" name="token" value="{{token}}" >
+        <select name="guild">
+            <option selected disabled hidden>SERVER</option>
+        {{#each serverselect}}
+            <option value="{{this.id}}">{{this.name}}</option>
+        {{/each}}
+    </select>
+    <br>
+    <input class="loginS" type="submit" value="SELECT GUILD">
+</form>
+</div>

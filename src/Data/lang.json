@@ -1,0 +1,285 @@
+{
+    "languages": ["en", "de"],
+    "translations": {
+        "USAGE": {
+            "en": "USAGE",
+            "de": "BENUTZUNG"
+        },
+        "ERROR": {
+            "en": "ERROR",
+            "de": "FEHLER"
+        },
+        "GETCURRENTPREFIXTITLE": {
+            "en": "SERVER PREFIX",
+            "de": "SERVER PRÄFIX"
+        },
+        "GETCURRENTPREFIX": {
+            "en": "Current server prefix:",
+            "de": "Aktuelles Präfix des Servers:"
+        },
+        "UCERRORTITLE": {
+            "en": "UNKNOWN COMMAND",
+            "de": "UNBEKANNTER BEFEHL"
+        },
+        "UCERROR1": {
+            "en": "Use",
+            "de": "Benutze"
+        },
+        "UCERROR2": {
+            "en": "to display all available commands",
+            "de": "um alle verfügbaren Befehle anzuzeigen"
+        },
+        "NPERRORTITLE": {
+            "en": "NO PERMISSIONS",
+            "de": "KEINE RECHTE"
+        },
+        "NPERROR1": {
+            "en": "You don't have the permission",
+            "de": "Sie haben nicht die Rechte"
+        },
+        "NPERROR2": {
+            "en": "to execute this command!",
+            "de": "um diesen Befehl auszuführen!"
+        },
+        "SUCCESS": {
+            "en": "SUCCESS",
+            "de": "ERFOLGREICH"
+        },
+        "HELP_CMD_EMBED_DESC1": {
+            "en": "My server prefix is",
+            "de": "Meine Server Prefix ist"
+        },
+        "HELP_CMD_EMBED_DESC2": {
+            "en": "My current version is",
+            "de": "Meine jetzige Version ist"
+        },
+        "HELP_CMD_EMBED_DESC3": {
+            "en": "My server language is",
+            "de": "Meine Server Sprache ist"
+        },
+        "HELP_CMD_EMBED_COMMAND_COUNT": {
+            "en": "Commands",
+            "de": "Befehle"
+        },
+        "HELP_CMD_EMBED_COMMAND_HELP": {
+            "en": "Show this message",
+            "de": "Diese Nachricht anzeigen"
+        },
+        "HELP_CMD_EMBED_COMMAND_SERVERINFO": {
+            "en": "Shows serverinfo",
+            "de": "Zeigt Serverinformationen an"
+        },
+        "HELP_CMD_EMBED_COMMAND_BAN": {
+            "en": "Ban user from server",
+            "de": "Benutzer vom Server bannen"
+        },
+        "HELP_CMD_EMBED_COMMAND_UNBAN": {
+            "en": "Unban user from server",
+            "de": "Benutzer vom Server entbannen"
+        },
+        "HELP_CMD_EMBED_COMMAND_KICK": {
+            "en": "Kicks user from server",
+            "de": "Kickt den Benutzer vom Server"
+        },
+        "HELP_CMD_EMBED_COMMAND_ROLE": {
+            "en": "Give role to user",
+            "de": "Eine Rolle einem Benutzer geben"
+        },
+        "HELP_CMD_EMBED_COMMAND_CHANGEPREFIX": {
+            "en": "Changes server prefix of the bot",
+            "de": "Ändert den Server Präfix des Bots"
+        },
+        "HELP_CMD_EMBED_COMMAND_CHANGELANGUAGE": {
+            "en": "Changes server language of the bot",
+            "de": "Ändert die Server Sprache des Bots"
+        },
+        "HELP_CMD_EMBED_COMMAND_LISTLANGUAGES": {
+            "en": "List of all available languages",
+            "de": "Eine Liste von allen verfügbaren Sprachen"
+        },
+        "HELP_CMD_EMBED_COMMAND_CLEAR": {
+            "en": "Clears specific amount of messages in a channel",
+            "de": "Löscht eine bestimmte Anzahl von Nachrichten in einem Channel"
+        },
+        "HELP_CMD_EMBED_UNIVERSALCOMMAND": {
+            "en": "Universal Commands",
+            "de": "Universelle Befehle"
+        },
+        "HELP_CMD_EMBED_UNIVERSALCOMMAND_GETCURRENTPREFIX": {
+            "en": "Shows only the current server prefix\n[For example when you forgot the current prefix]",
+            "de": "Zeigt nur das aktuelle Server Präfix an\n[Zum Beispiel, wenn du das aktuelle Präfix vergessen hast]"
+        },
+        "HELP_CMD_EMBED_INFORMATION": {
+            "en": "Information",
+            "de": "Information"
+        },
+        "HELP_CMD_EMBED_INFORMATION_INFO": {
+            "en": "[Invite](https://discordapp.com/oauth2/authorize?client_id=746027483429732463&scope=bot&permissions=536804850943) the bot to your server\n» [Visit](https://darkbluepandaa.de/) my website",
+            "de": "[Lade](https://discordapp.com/oauth2/authorize?client_id=746027483429732463&scope=bot&permissions=536804850943) den Bot auf deinen Server ein\n» [Besuche](https://darkbluepandaa.de/) meine Website"
+        },
+        "HELP_CMD_EMBED_COMMAND_WELCOME": {
+            "en": "Define one welcome and goodbye channel with a max of 3 roles to give a new user",
+            "de": "Definiere einen Wilkommens- und Verabschiedungskanal mit maximal 3 Rollen, die man einem neuen Benutzer vergeben kann"
+        },
+        "HELP_CMD_EMBED_COMMAND_ROLEDROPDOWN": {
+            "en": "Create a role dropdown menu for members [ATTENTION: Enter role name and not id]",
+            "de": "Erstellen Sie ein Rollen-Dropdown-Menü für Mitglieder [ACHTUNG: Geben Sie den Rollennamen und nicht die ID ein]."
+        },
+        "CHANGELANGUAGE_CMD_EMBED_NOPERMS": {
+            "en": "You do not have permission to use that command",
+            "de": "Sie haben nicht die Rechte, diesen Befehl zu verwenden"
+        },
+        "CHANGELANGUAGE_CMD_EMBED_NOPERMST": {
+            "en": "NO PERMS",
+            "de": "KEINE RECHTE"
+        },
+        "CHANGELANGUAGE_CMD_EMBED_FUPDATE": {
+            "en": "Failed to update guild language to",
+            "de": "Die Server Sprache wurde nicht aktualisiert auf"
+        },
+        "CHANGELANGUAGE_CMD_EMBED_SUCCESS": {
+            "en": "Updated guild language to",
+            "de": "Die Server Sprache wurde aktualisiert auf"
+        },
+        "CHANGELANGUAGE_CMD_EMBED_SAMELANG": {
+            "en": "The language you wanted to set is already",
+            "de": "Die Sprache, die du einstellen wolltest, ist bereits"
+        },
+        "LISTLANGUAGE_CMD_EMBED_SUCCESST": {
+            "en": "List of all available languages",
+            "de": "Eine Liste von allen verfügbaren Sprachen"
+        },
+        "BAN_CMD_EMBED_BANNEDT": {
+            "en": "BANNED",
+            "de": "GEBANNT"
+        },
+        "BAN_CMD_EMBED_CANT_BAN_MODERATOR": {
+            "en": "You can't ban a moderator",
+            "de": "Du kannst keinen Moderator bannen"
+        },
+        "BAN_CMD_EMBED_CANT_BAN_SELF": {
+            "en": "You can't ban yourself",
+            "de": "Du kannst dich nicht selber bannen"
+        },
+        "BAN_CMD_EMBED_BANNED": {
+            "en": "has been banned`\n» `REASON:",
+            "de": "wurde gebannt`\n» `GRUND:"
+        },
+        "BAN_CMD_EMBED_ISBANNEDT": {
+            "en": "IS ALREADY BANNED",
+            "de": "IST BEREITS GEBANNT"
+        },
+        "BAN_CMD_EMBED_ISBANNED": {
+            "en": "is already banned`\n» `REASON:",
+            "de": "ist bereits gebannt`\n» `GRUND:"
+        },
+        "UNBAN_CMD_EMBED_UNBANNEDT": {
+            "en": "UNBANNED",
+            "de": "ENTBANNT"
+        },
+        "UNBAN_CMD_EMBED_UNBANNED": {
+            "en": "has been unbanned",
+            "de": "wurde entbannt"
+        },
+        "UNBAN_CMD_EMBED_ISNOTBANNEDT": {
+            "en": "NOT BANNED",
+            "de": "NICHT GEBANNT"
+        },
+        "UNBAN_CMD_EMBED_ISNOTBANNED": {
+            "en": "is not banned",
+            "de": "ist nicht gebannt"
+        },
+        "KICK_CMD_EMBED_CANT_KICK_MODERATOR": {
+            "en": "You can't kick a moderator",
+            "de": "Du kannst keinen Moderator kicken"
+        },
+        "KICK_CMD_EMBED_CANT_KICK_SELF": {
+            "en": "You can't kick yourself",
+            "de": "Du kannst dich nicht selber kicken"
+        },
+        "KICK_CMD_EMBED_KICKED": {
+            "en": "has been kicked`\n» `REASON:",
+            "de": "wurde gekickt`\n» `GRUND:"
+        },
+        "SERVERINFO_CMD_EMBED_DESCRIPTION": {
+            "en": "Description",
+            "de": "Beschreibung"
+        },
+        "SERVERINFO_CMD_EMBED_CREATEDAT": {
+            "en": "Created at",
+            "de": "Erstellt am"
+        },
+        "SERVERINFO_CMD_EMBED_OWNER": {
+            "en": "Owner",
+            "de": "Eigentümer"
+        },
+        "SERVERINFO_CMD_EMBED_MEMBERCOUNT": {
+            "en": "Member Count",
+            "de": "Anzahl der Mitglieder"
+        },
+        "SERVERINFO_CMD_EMBED_MEMBERCAP": {
+            "en": "Member Cap",
+            "de": "Maximale Mitglieder"
+        },
+        "CLEAR_CMD_EMBED_TO_MANY_MESSAGES": {
+            "en": "You cannot clear more than 100 messages!",
+            "de": "Du kannst nicht mehr als 100 Nachrichten löschen!"
+        },
+        "CLEAR_CMD_EMBED_CLEARED": {
+            "en": "messages got cleared!",
+            "de": "Nachrichten wurden gelöscht!"
+        },
+        "ROLE_CMD_EMBED_HAS_ALREADY_ROLE": {
+            "en": "has already the role",
+            "de": "hat bereits die Rolle"
+        },
+        "AUTOROLE_DROPDOWN_EMBED": {
+            "en": "Get or remove roles by clicking on options given in menu, after reclicking the role will be removed.",
+            "de": "Bekomme oder entferne deine Rollen, indem du auf die im Menü angegebenen Optionen klickst. Nach erneutem Klicken wird die Rolle entfernt."
+        },
+        "AUTOROLE_DROPDOWN_PLACEHOLDER": {
+            "en": "Select to add/remove roles",
+            "de": "Wähle eine Rolle aus zum Hinzufügen/Entfernen"
+        },
+        "AUTOROLE_DROPDOWN_ADDED_ROLE": {
+            "en": "We have added you the Role",
+            "de": "Wir haben dir die Rolle hinzugefügt"
+        },
+        "AUTOROLE_DROPDOWN_REMOVED_ROLE": {
+            "en": "We have removed you the Role",
+            "de": "Wir haben dir die Rolle entfernt"
+        },
+        "AUTOROLE_DROPDOWN_DESCRIPTION": {
+            "en": "Click to add/remove the role:",
+            "de": "Klicke zum hinzufügen/entfernen der Rolle:"
+        },
+        "CHANGEPREFIX_CMD_EMBED_FUPDATE": {
+            "en": "Failed to update guild prefix to",
+            "de": "Fehler beim aktualisieren des Server Präfix auf"
+        },
+        "CHANGEPREFIX_CMD_EMBED_UPDATE": {
+            "en": "Updated guild prefix to",
+            "de": "Server Präfix wurde aktualisiert auf"
+        },
+        "CHANGEPREFIX_CMD_EMBED_NOPERMS": {
+            "en": "You do not have permission to use that command",
+            "de": "Du hast nicht die Berechtigung um diesen Befehl auszuführen"
+        },
+        "CHANGEPREFIX_CMD_EMBED_NOPERMST": {
+            "en": "NO PERMS",
+            "de": "KEINE RECHTE"
+        },
+        "AUTOROLE_DROPDOWN_RESET_LABEL": {
+            "en": "RESET",
+            "de": "ZURÜCKSETZEN"
+        },
+        "AUTOROLE_DROPDOWN_RESET": {
+            "en": "Reset current selection",
+            "de": "Aktuelle Auswahl zurücksetzen"
+        },
+        "AUTOROLE_DROPDOWN_RESET_MSG": {
+            "en": "Your current selection was resetted",
+            "de": "Deine aktuelle Auswahl wurde zurückgesetzt"
+        }
+    }
+}

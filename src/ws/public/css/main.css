@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  background-color: rgb(30, 30, 30);
+}
+.container {
+  text-align: center;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+table,
+tr,
+td,
+th,
+li {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+input[type="text"],
+select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #3c455e;
+  border-radius: 10px;
+  background-color: #191e2b;
+  box-sizing: border-box;
+  text-align: center;
+  color: #ffff;
+}
+textarea,
+select {
+  width: 40%;
+  padding: 5px 15px;
+  margin: -18px 0;
+  display: inline-block;
+  resize: none;
+  border: 2px solid #3c455e;
+  border-radius: 10px;
+  background-color: #191e2b;
+  box-sizing: border-box;
+  text-align: center;
+  color: #ffff;
+}
+input[type="password"],
+select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #3c455e;
+  border-radius: 10px;
+  background-color: #191e2b;
+  box-sizing: border-box;
+  text-align: center;
+  color: #ffff;
+}
+*:focus {
+  outline: none;
+}
+input[type="number"],
+select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #3c455e;
+  border-radius: 10px;
+  background-color: #191e2b;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  width: 50%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  background-color: #34793a;
+  transition: 0.25s all ease-in-out;
+  border: 3px solid #6b946f;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #58835c;
+}
+
+input[type="button"] {
+  width: 50%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  background-color: #191e2b;
+  transition: 0.25s all ease-in-out;
+  border: 3px solid #9da6bf;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #3c455e;
+}
+
+.loginT {
+  width: 50%;
+}
+
+.loginS {
+  width: 50%;
+}
