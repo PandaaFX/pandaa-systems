@@ -1,4 +1,7 @@
 # PandaaFX-Bot (Dev-Log)
+**24.10.2021**
+- Bot kann jetzt Musik abspielen.
+
 **23.10.2021**
 - Rollen vergabe auf 3 erhöht. Rollen Dropdownmenü hinzugefügt
 
